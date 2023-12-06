@@ -1,0 +1,203 @@
+* {
+    font-family: poppins;
+}
+
+body {
+    background: #ffffff;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+}
+
+.navbar {
+    background-color: white; /* Set the background to transparent */
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    width: 100%;
+    z-index: 4; /* Ensure the navbar appears above the image */
+    top: 0;
+    border-bottom: 1px solid black;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    line-height: 10vh;
+    margin-right: 5vw;
+}
+
+.nav-links li {
+    display: inline-block;
+    margin: 0 5px;
+    text-align: center;
+}
+
+.nav-links li a {
+    color: black;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    white-space: nowrap;
+    font-size: 1.2rem;
+    border: 0px solid black;
+    border-radius: 7px;
+}
+
+.nav-links li a:hover {
+    background: rgb(55, 182, 98);
+    transition: 0.5s ease;
+}
+
+.logo {
+    margin-left: 5vw;
+    justify-content: left;
+}
+
+#logo__img {
+    width: 30%;
+    height: auto;
+}
+
+.main {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.overlay {
+    position: absolute;
+    width: 100vw;
+    height: 40vh;
+    background: linear-gradient(to bottom, rgba(55, 182, 98, 0.886), rgba(0, 0, 0, 0.645));  
+}
+
+.hero {
+    display: flex;
+    height: 40vh;
+    width: 100vw;
+}
+
+#hero {
+    width: 100%;
+    height: 100%;
+}
+
+.title {
+    display: flex;
+    height: 20vh;
+    width: 100vw;
+    position: absolute;
+    width: 100vw;
+    height: 40vh;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+}
+
+.title h2 {
+    font-size: xxx-large;
+    color: #fff;
+}
+
+.side-by-side {
+    display: flex;
+    margin-top: 10vh;
+    justify-content: space-between;
+    padding: 3%;
+}
+
+.main__content {
+    display: grid;
+    justify-items: center;
+    width: 40vw;
+    height: 60vh;
+    border: 2px solid #444343;
+    border-radius: 10px;
+    background: #339233c4;
+    margin-right: 9vw;
+    box-shadow: 0px 5px 10px black;
+}
+
+.info {
+    display: flex;
+    width: 40vw;
+    height: 60vh;
+    margin-left: 9vw;
+    padding-right: 9%;
+}
+
+h3 {
+    font-size: xxx-large;
+}
+
+p {
+    font-size: larger;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    white-space: nowrap;
+}
+
+.header h1 {
+    color: #fff;
+    height: 7vh;
+    font-size: xx-large;
+    text-shadow: 0px 1px 5px black;
+}
+
+.contact__sheet {
+    display: grid;
+    width: 50%;
+    text-align: center;
+}
+
+#email {
+    width: 100%;
+    margin-bottom: 5vh;
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 15%;
+    font-size: large;
+}
+
+#name {
+    width: 100%;
+    margin-bottom: 5vh;
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 15%;
+    font-size: large;
+}
+
+input[type="text"],
+input[type="email"] {
+  padding-left: 1vw; /* Adjust the padding as needed */
+}
+
+#name::placeholder {
+    color: black;
+    font-size: large;
+    margin-left: 1vw;
+}
+
+#sumbit {
+    width: 50%;
+    height: 5vh;
+    font-size: large;
+    border: 2px solid black;
+    border-radius: 5px;
+    background: #fff;
+}
+
+#email::placeholder {
+    color: black;
+    font-size: large;
+    margin-left: 1vw;
+}

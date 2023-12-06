@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="contact.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Montserrat&family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="main">
+      <nav class="navbar">
+        <div class="logo">
+          <img src="/images/tiny__logo.svg" alt="404" id="logo__img" />
+        </div>
+        <div class="menu-toggle">
+          <ul class="nav-links">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="listings.php">LISTINGS</a></li>
+            <li><a href="#Projects">PROJECTS</a></li>
+            <li><a href="#About">ABOUT US</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="hero">
+        <div class="title">
+          <h2>CONTACT US</h2>
+        </div>
+        <div class="overlay"></div>
+        <img src="/images/forest-banner.jpeg" alt="404" id="hero" />
+      </div>
+      <div class="side-by-side">
+        <div class="info">
+          <article>
+            <h3>Questions?</h3>
+            <p>
+              Feel free to contact us through the form on the right. Leave your
+              name and email and we will respond as soon as possible.
+            </p>
+          </article>
+        </div>
+        <div class="main__content">
+          <div class="header">
+            <h1>Leave Us Your Info Below!</h1>
+          </div>
+          <div class="contact__sheet">
+            <form action="/submit-form" method="post">
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Name"
+                required
+              />
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Email"
+                required
+              />
+
+              <div class="button__container">
+                <input type="submit" value="Submit" id="sumbit" />
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

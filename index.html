@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>NE Tiny Homes</title
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Montserrat&family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="/images/tiny__logo-white.svg" alt="404" id="logo__img">
+        </div>
+        <div class="menu-toggle">
+            <button id="hamburger">&#9776;</button>
+            <ul class="nav-links">
+                <li><a href="listings.php">LISTINGS</a></li>
+                <li><a href="#Projects">PROJECTS</a></li>
+                <li><a href="#About">ABOUT US</a></li>
+                <li><a href="contact.html">CONTACT US</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="header">
+        <h1>FIND YOUR DREAM</h1>
+        <h2>HOME TODAY</h2>
+    </div>
+    <div class="main-img">
+        <div class="overlay">
+        </div>
+        <img src="/images/maine__woods.jpeg" alt="404" id="landing__img">
+    </div>
+    <script>
+        document.getElementById("hamburger").addEventListener("click", function() {
+      document.querySelector(".nav-links").classList.toggle("show");
+        });
+    </script>
+</body>
+</html>
